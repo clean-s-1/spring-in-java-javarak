@@ -6,5 +6,7 @@ public class Statistics
 {
     public static Stats getStatistics(List<Integer> numbers) {
         //implement the computation of statistics here
+        
+        return new Stats();
     }
 }
