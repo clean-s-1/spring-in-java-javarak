@@ -7,7 +7,7 @@ public class Statistics {
 	static class Stats {
 	}
 
-	public static Stats getStatistics(List<Integer> numbers) {
+	public static Stats getStatistics(List<Float> numbers) {
 		// implement the computation of statistics here
 
 		return new Stats();
