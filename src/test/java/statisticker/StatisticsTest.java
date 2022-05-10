@@ -9,8 +9,6 @@ import java.util.ArrayList;
 
 import org.junit.Test;
 
-import src.main.java.statisticker;
-
 public class StatisticsTest 
 {
     
