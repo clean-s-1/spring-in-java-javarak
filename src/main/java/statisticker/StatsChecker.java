@@ -1,3 +1,4 @@
+package statisticker;
 class StatsChecker {
 
     private Float maxThreshold;
