@@ -11,6 +11,7 @@ import org.junit.Test;
 
 public class StatisticsTest 
 {
+    
     @Test
     public void reportsAverageMinMaxx()
     {
@@ -52,4 +53,5 @@ public class StatisticsTest
         assertTrue(emailAlerter.emailSent);
         assertTrue(ledAlerter.ledGlows);
     }
+
 }
