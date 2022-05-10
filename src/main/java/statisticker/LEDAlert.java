@@ -1,0 +1,4 @@
+class LEDAlert implements IAlerter {
+  
+  
+}
