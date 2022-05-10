@@ -11,11 +11,12 @@ import org.junit.Test;
 
 public class StatisticsTest 
 {
+    
     @Test
     public void reportsAverageMinMaxx()
     {
         Float[] numbers = {1.5f, 8.9f, 3.2f, 4.5f};
-        List<___> numberList = Arrays.asList(numbers);
+        List<Float> numberList = Arrays.asList(numbers);
 
         Statistics.Stats s = Statistics.getStatistics(numberList);
 
@@ -27,7 +28,7 @@ public class StatisticsTest
     @Test
     public void reportsNaNForEmptyInput()
     {
-        List<___> emptyList = new ArrayList<___>();
+        List<Float> emptyList = new ArrayList<Float>();
 
         Statistics.Stats s = Statistics.getStatistics(emptyList);
 
@@ -46,10 +47,11 @@ public class StatisticsTest
         StatsChecker checker = new StatsChecker(maxThreshold, alerters);
 
         Float[] numbers = {11.5f, 6.9f, 7.5f, 6.6f};
-        List<___> numberList = Arrays.asList(numbers);
+        List<Float> numberList = Arrays.asList(numbers);
         checker.checkAndAlert(numbers);
         
         assertTrue(emailAlerter.emailSent);
         assertTrue(ledAlerter.ledGlows);
     }
+
 }
