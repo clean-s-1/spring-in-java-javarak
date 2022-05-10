@@ -1,3 +1,4 @@
+package statisticker;
 interface IAlerter {
   
 }
